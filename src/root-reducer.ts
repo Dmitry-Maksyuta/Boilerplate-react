@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import { counter } from './redux/reducers/counter'
+import { counter } from './redux/counter/reducer'
 
 const reducers = {
   counter,

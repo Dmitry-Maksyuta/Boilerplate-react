@@ -1,12 +1,12 @@
 import React from 'react'
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
-import Button from './components/Button'
+import Main from "./pages/main/Main";
 
 const App: React.FC = () => (
   <Router>
     <Switch>
       <Route exact path="/">
-        <Button />
+        <Main />
       </Route>
     </Switch>
   </Router>
