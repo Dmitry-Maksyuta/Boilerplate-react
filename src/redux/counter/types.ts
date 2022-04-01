@@ -1,8 +1,8 @@
 export interface Slice {
-    value: number
+  value: number
 }
 
 export interface ActionSaga {
-    type: string
-    payload: number
+  type: string
+  payload: number
 }

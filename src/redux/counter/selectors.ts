@@ -6,4 +6,4 @@ const getValue = (state: RootState) => state.counter.value
 
 const counterSelectors = { getValue }
 
-export default counterSelectors;
+export default counterSelectors
