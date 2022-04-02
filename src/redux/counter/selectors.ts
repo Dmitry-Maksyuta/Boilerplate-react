@@ -1,8 +1,9 @@
-import { rootReducer } from '../../root-reducer'
+import { createSelector } from 'reselect'
+import { RootState, Slice } from './types'
 
-type RootState = ReturnType<typeof rootReducer>
+const select = (state: RootState) => state.counter
 
-const getValue = (state: RootState) => state.counter.value
+const getValue = () => createSelector(select, (s: Slice) => s.value)
 
 const counterSelectors = { getValue }
 
