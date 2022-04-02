@@ -16,10 +16,4 @@ describe('Counter', () => {
   it('renders without crashing', () => {
     expect(shallow(<Main />))
   })
-
-  // it('increments counter', () => {
-  //   const wrapper = shallow(<Main />).dive()
-  //   wrapper.find('div').simulate('click')
-  //   expect(wrapper.find('div').text()).toEqual('1')
-  // })
 })
